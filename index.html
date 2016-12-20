@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>hcwcbmoh</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script src="js/jquery.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	
+	jQuery('a.vid').click(function(){
+		var qid=jQuery(this).attr('atr');
+		
+		cordova.InAppBrowser.open(qid,'_blank','location=no');
+		return false;	
+	});
+});	
+
+
+</script>
+</head>
+<body>
+<div class="wrapper">
+	
+<br>
+<br>
+<br>
+<a href="http://www.videowhisper.com/demos/2wayvideochat/index.php?r=InstantChat_16jdahl" class="vid">http://www.videowhisper.com/demos/2wayvideochat/index.php?r=InstantChat_16jdahl</a>
+	
+</div>
+
+</body>
+</html>
